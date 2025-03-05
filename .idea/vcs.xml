@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TP0_ONBOARDING/onboarding-2023c2-Tinchocw" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TP3_FINAL/TPG-Taller-Worms2D" vcs="Git" />
   </component>
 </project>

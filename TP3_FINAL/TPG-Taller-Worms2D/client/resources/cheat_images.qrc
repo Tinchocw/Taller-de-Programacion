@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/cheat">
+        <file alias="buttonBorder.png">./images/buttonBorder.png</file>
+        <file alias="cheatBackground.png">./images/cheatBackground.png</file>
+    </qresource>
+</RCC>

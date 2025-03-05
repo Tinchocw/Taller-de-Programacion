@@ -1,0 +1,26 @@
+@startuml projectileTimer
+skinparam ParticipantBackgroundColor white
+
+participant Battlefield as battlefield
+participant Projectile as proj
+participant Entity as entity
+
+loop por cada proyectil
+    battlefield ->> proj : updateTimer()
+
+    alt proj.time_till_detonation <= 0
+
+        proj -> proj : collide()
+
+        loop por cada entidad en rango 
+            proj ->> entity : apply_explosion(impulse)
+            proj ->> entity : recibe_life_modification(-damage)
+        end
+    end
+end
+
+
+
+
+
+@enduml

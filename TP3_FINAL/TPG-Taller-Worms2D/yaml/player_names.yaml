@@ -1,0 +1,30 @@
+---
+
+worm-names:
+    - ["DiMaria"]
+    - ["Messi"]
+    - ["Alvarez"]
+    - ["Romero"]
+    - ["MacAllister"]
+    - ["Fernandez"]
+    - ["Martinez"]
+    - ["Martinez"]
+    - ["Acuna"]
+    - ["De Paul"]
+    - ["Montiel"]
+    - ["Maradona"]
+    - ["Batista"]
+    - ["Borghi"]
+    - ["Passarella"]
+    - ["Kempes"]
+    - ["Fillol"]
+    - ["Ruggeri"]
+    - ["Valdano"]
+    - ["Pasculli"]
+    - ["Oviedo"]
+    - ["Houseman"]
+    - ["Bochini"]
+    - ["Garre"]
+    - ["Burruchaga"]
+
+amount_of_names: 25

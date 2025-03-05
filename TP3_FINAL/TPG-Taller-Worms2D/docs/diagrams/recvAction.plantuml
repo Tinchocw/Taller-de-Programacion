@@ -1,0 +1,23 @@
+@startuml recvAction
+skinparam ParticipantBackgroundColor white
+
+participant Queue as game_queue
+participant Receiver as recv
+participant Protocol as protocol 
+participant Parser as parser
+participant Action as action
+
+recv ->> protocol : recvCommand(command)
+recv ->> parser : makeGameCommand(command, protocol, ...)
+parser -->> action : Action::Action(protocol)
+
+loop#GoldenRod por cada atributo
+    action ->> protocol : recv(...)
+    protocol -->> action
+end
+
+parser -->> recv : action_ptr
+recv ->> game_queue : push(action)
+
+
+@enduml

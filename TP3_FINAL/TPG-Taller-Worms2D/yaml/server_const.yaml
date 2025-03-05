@@ -1,0 +1,116 @@
+---
+
+  bar_x: 38.4 # 76.8 / 2
+  bar_y: 0.4 # 0.8 / 2
+  bar_width_short: 2.1
+  bar_width_long: 4.2
+  bar_height: 0.7
+
+
+  gravity_x: 0
+  gravity_y: -16.5
+
+  tick_rate: 30
+  tick_duration: 33 # 1000 / 30 rounded
+  time_step: 0.017 # 1/60
+
+  velocity_iterations: 6
+  position_iterations: 2
+
+  min_wind: -4.0
+  max_wind: 4.0
+
+  extra_worm_life: 25
+
+  initial_life: 100
+  worm_radius: 0.5
+  arm_length: 0.9  #(${worm_width} / 2) + 1
+  power_raise: 0.43
+  max_power: 7
+  min_falling_damage: 4.0
+  max_falling_damage: 25.0
+  fall_damage_amplification: 1
+
+  min_squared_velocity: 0.01
+  min_y_velocity: 1
+  max_y_velocity: 10
+  refresh_walk: 10
+
+
+  bazooka_ammo: 255
+  green_grenade_ammo: 255
+  banana_ammo: 5
+  dynamite_ammo: 5
+  mortar_ammo: 10
+  red_grenade_ammo: 10
+  holy_grenade_ammo: 2
+  baseball_bat_ammo: 255
+  air_strike_ammo: 2
+  teleport_ammo: 255
+
+
+
+  turn_duration_in_seconds: 60
+  post_turn_duration_in_seconds: 3
+
+  blast_radius_bazooka: 2
+  epicenter_damage_bazooka: 50
+
+  blast_radius_green_grenade: 2
+  epicenter_damage_green_grenade: 30
+
+  blast_radius_banana: 4
+  epicenter_damage_banana: 70
+
+  blast_radius_dynamite: 2
+  epicenter_damage_dynamite: 50
+
+  blast_radius_mortar: 2
+  epicenter_damage_mortar: 50
+  blast_radius_mortar_fragment: 2
+  epicenter_damage_mortar_fragment: 10
+  fragments_amount: 6
+  fragment_power: 5
+
+  blast_radius_red_grenade: 2
+  epicenter_damage_red_grenade: 30
+
+  blast_radius_holy_grenade: 8
+  epicenter_damage_holy_grenade: 110
+
+  baseball_bat_range: 4
+  baseball_bat_damage: 10
+  baseball_bat_factor: 2
+
+  blast_radius_air_strike: 2
+  epicenter_damage_air_strike: 40
+  air_strike_rockets: 6
+  air_strike_rocket_separation: 0.6
+  air_strike_rocket_deviation_x: 3.2
+  air_strike_rocket_y_position: 35
+
+  blast_radius_teleport: 0
+  epicenter_damage_teleport: 0
+
+  rocket_delay : 10
+  min_health_first_aid: 10
+  max_health_first_aid: 50
+
+  min_ammo_ammo_box: 3
+  max_ammo_ammo_box: 10
+
+  min_damage_trap: 10
+  max_damage_trap: 100
+
+  crate_length: 0.8
+
+  min_x_crate_spawn: 10.0
+  max_x_crate_spawn: 45.0
+  y_crate_spawn: 35.0
+
+  tide_level: 4
+  left_border: 0
+  right_border: 60
+
+  drowning_projectile_factor: 0.7
+  impulse_reductive_factor: 0.4

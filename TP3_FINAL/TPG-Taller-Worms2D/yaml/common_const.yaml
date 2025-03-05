@@ -1,0 +1,6 @@
+---
+
+#You can change this value, but keep in mind that qt lobby is not dinamic at the moment.
+#So we recommend keeping it below 4.
+max_players: 4 
+worms_quantity: 4

@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="aim.png">./images/aim.png</file>
+        <file alias="changeGadget.png">./images/changeGadget.png</file>
+        <file alias="countdown.png">./images/countdown.png</file>
+        <file alias="create.bmp">./images/create.bmp</file>
+        <file alias="createMenu.bmp">./images/createMenu.bmp</file>
+        <file alias="exitGame.png">./images/exitGame.png</file>
+        <file alias="explosion.gif">./images/explosion.gif</file>
+        <file alias="goBack.bmp">./images/goBack.bmp</file>
+        <file alias="help.png">./images/help.png</file>
+        <file alias="help2.bmp">./images/help2.bmp</file>
+        <file alias="icon.png">./images/icon.png</file>
+        <file alias="intro.gif">./images/intro.gif</file>
+        <file alias="joinGame.bmp">./images/joinGame.bmp</file>
+        <file alias="jump.png">./images/jump.png</file>
+        <file alias="lobby.png">./images/lobby.png</file>
+        <file alias="lobbyWorm.png">./images/lobbyWorm.png</file>
+        <file alias="move.png">./images/move.png</file>
+        <file alias="notReady.png">./images/notReady.png</file>
+        <file alias="play.png">./images/play.png</file>
+        <file alias="ready.png">./images/ready.png</file>
+        <file alias="refresh.bmp">./images/refresh.bmp</file>
+        <file alias="setReady.png">./images/setReady.png</file>
+        <file alias="star.gif">./images/star.gif</file>
+        <file alias="title.png">./images/title.png</file>
+        <file alias="mute.png">./images/mute.png</file>
+        <file alias="nonMute.png">./images/nonMute.png</file>
+    </qresource>
+</RCC>

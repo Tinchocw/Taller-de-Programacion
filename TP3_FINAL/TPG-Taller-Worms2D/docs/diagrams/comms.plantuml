@@ -1,0 +1,63 @@
+@startuml comms
+allowmixing
+hide empty attributes
+skinparam classBackgroundColor white
+
+package "Server" {
+
+    class ServerSide::Receiver
+    note top of ServerSide::Receiver : Thread
+
+    class ServerSide::Sender 
+    note top of ServerSide::Sender : Thread
+
+    class Acceptor
+    note left of Acceptor : Thread
+
+    database EventQueue
+
+    class Acceptor
+    class ServerSide::Client
+}
+
+package "Client" {
+
+    class Client {
+
+    }
+
+    database ActionQueue
+
+    Client --* ClientSide::Sender
+    Client --* ClientSide::Receiver
+    Client --* ActionQueue
+
+    class ClientSide::Receiver
+    note top of ClientSide::Receiver : Thread
+
+    class ClientSide::Sender 
+    note top of ClientSide::Sender : Thread
+}
+
+package "Protocol"{
+    class ClientSide::Protocol
+    class ServerSide::Protocol
+}
+
+package "Network"{
+    class Socket
+}
+
+Acceptor --* "*" ServerSide::Client
+ServerSide::Client --* ServerSide::Sender
+ServerSide::Client --* ServerSide::Receiver
+
+ServerSide::Client --* EventQueue
+
+Client --* ClientSide::Protocol
+
+ServerSide::Client --* ServerSide::Protocol
+
+"Protocol" --> Socket
+
+@enduml

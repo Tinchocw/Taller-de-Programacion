@@ -1,0 +1,209 @@
+#ifndef CONST_H
+#define CONST_H
+
+#define SUCCESS_ 0
+#define ERROR_ 1
+
+#define NOT_JOINABLE 0
+#define NOT_POPPED_COUNT 254
+#define CONNECTION_ERROR 255
+
+#define MAX_DESCR_CHARS 64
+
+#define NOT_YOUR_TURN 0
+#define IS_YOUR_TURN 1
+
+#define YOU_LOSE 0
+#define YOU_WIN 1
+
+enum class SWIndex { INTRO, MENU, GAME_SEARCH, HELP, LOBBY };
+
+enum class _CrateType_ { FIRST_AID, AMMO_BOX, TRAP };
+
+enum class Direction { LEFT = 0, RIGHT = 1 };
+
+enum class JumpDir { FRONT = 0, BACK = 1 };
+
+enum class ADSAngleDir { UP = 0, DOWN = 1 };
+
+enum class DelayAmount { ONE = 1, TWO = 2, THREE = 3, FOUR = 4, FIVE = 5 };
+
+enum class WeaponsAndTools {
+    BAZOOKA = 0x01,
+    MORTAR,
+    GREEN_GRENADE,
+    RED_GRENADE,
+    BANANA,
+    HOLY_GRENADE,
+    DYNAMITE,
+    BASEBALL_BAT,
+    AIR_STRIKE,
+    TELEPORT,
+    MORTAR_FRAGMENT
+};
+
+enum class Actions {
+    NULL_,  // Null action
+
+    // Lobby actions
+    CREATE,
+    JOIN,
+    SHOW_GAMES,
+    EXIT_GAME,
+    READY,
+
+    // Game actions
+
+    // Movement
+    START_MOVING,
+    STOP_MOVING,
+    JUMP,
+
+    // Fight
+    ADS_ANGLE,
+    STOP_ADS_ANGLE,
+    FIRE_POWER,
+    SHOOT,  // stop fpower + shoot
+    DELAY,
+    CHANGE_WEAPON_OR_TOOL,
+    USE_CLICKABLE,
+
+    // Cheats
+    WW3,
+    RANDOM_KILL,
+    INFINITE_AMMO,
+    MADNESS,
+    IMMORTAL_WORM,
+    MULTIPLE_JUMP,
+    INFINITE_TURN,
+    EVERYONE_1HP
+
+};
+
+enum class TerrainActors {
+    WIN_SIGN,
+    LOOSE_SIGN,
+    GRADIENT,
+    BAR,
+    LONG_BAR,
+    BACKGROUND,
+    WATER,
+    DEEP_WATER,
+    AIR_JET,
+    CRATE,
+    CRATE_FALLING,
+    WIND
+};
+
+enum class Projectiles {
+    BAZOOKA_PROYECTILE,
+    BANANA_PROYECTILE,
+    GREEN_GRENADE_PROYECTILE,
+    DYNAMITE_PROYECTILE,
+    HOLY_GRENADE_PROYECTILE,
+    MORTAR_PROYECTILE,
+    MORTAR_FRAGMENT,
+    RED_GRENADE_PROYECTILE,
+    AIR_STRIKE_PROYECTILE
+};
+
+enum class Tombstones {
+    TOMBSTONE_1 = 0x1,
+    TOMBSTONE_2,
+    TOMBSTONE_3,
+    TOMBSTONE_4,
+    TOMBSTONE_5,
+    TOMBSTONE_6
+};
+
+enum class ToolUsage { AIR_STRIKE_CALL, TELEPORT_USE, BASEBALL_SWING };
+
+enum class VisualEffects { NORMAL_EXPLOSION, FRAGMENT_EXPLOSION, CRATE_HEAL, CRATE_AMMO };
+
+enum class SoundEffects {
+    AIRSTRIKE,
+    BANANA_IMPACT,
+    BASEBALL_IMPACT,
+    BASEBALL_JINGLE,
+    BAZOOKA_IMPACT,
+    BYEBYE_DEATH,
+    GREEN_GRENADE_IMPACT,
+    RED_GRENADE_IMPACT,
+    HOLY_GRENADE_CHOIR,
+    EXPLOSION_WITH_FIRE,
+    FRAGMENT_IMPACT,
+    DRY_EXPLOSION,
+    CONTRACT_WALK,
+    EXTEND_WALK,
+    TELEPORT,
+    CHARGE_POWER,
+    WORM_JUMP,
+    WORM_BACKFLIP,
+    ROUND_START,
+    TIMER_TICK,
+    WORM_ME_MUERO,
+    CRATE_LANDED,
+    CRATE_OPENED
+};
+
+enum class TeamColours { RED = 0x00, BLUE = 0x01, GREEN = 0x02, YELLOW = 0x03 };
+
+enum class Actors {
+    WORM = 0x0,
+    JUMPING_WORM,
+    BACKFLIP_WORM,
+    DYING_WORM,
+    CROSSHAIR,
+    POWER_CHARGE_BAR,
+    STATE_SIGN,
+    TIMER_SIGN,
+    WIND_LEFT,
+    WIND_RIGHT
+};
+
+enum class WeaponsDraw {
+    WORM_DRAW_BAZOOKA,
+    WORM_DRAW_BANANA,
+    WORM_DRAW_HOLY_GRENADE,
+    WORM_DRAW_AIR_STRIKE,
+    WORM_DRAW_BASEBALL_BAT,
+    WORM_DRAW_DYNAMITE,
+    WORM_DRAW_GREEN_GRENADE,
+    WORM_DRAW_MORTAR,
+    WORM_DRAW_RED_GRENADE,
+    WORM_DRAW_TELEPORT
+};
+
+enum class WeaponAiming {
+    WORM_AIM_BAZOOKA,
+    WORM_AIM_BANANA,
+    WORM_AIM_HOLY_GRENADE,
+    WORM_AIM_AIR_STRIKE,
+    WORM_AIM_BASEBALL_BAT,
+    WORM_AIM_DYNAMITE,
+    WORM_AIM_GREEN_GRENADE,
+    WORM_AIM_MORTAR,
+    WORM_AIM_RED_GRENADE,
+    WORM_AIM_TELEPORT
+};
+
+enum class StatesTag {
+    GAME_NOT_JOINABLE,
+    CONNECTION_ERROR_STATE,
+    GAMES_COUNT_L,
+    INFO_GAME_L,
+    PLAYER_COUNT_L,
+    PLAYER_L,
+    LEVEL_BUILD,
+    BATTLEFIELD_G,
+    PLAYER_G,
+    PROJECTILE_COUNT,
+    PROJECTILE_G,
+    PLAYER_TURN,
+    WORM_G,
+    CRATE,
+    CRATE_COUNT,
+    _YOU_WIN_
+};
+
+#endif
