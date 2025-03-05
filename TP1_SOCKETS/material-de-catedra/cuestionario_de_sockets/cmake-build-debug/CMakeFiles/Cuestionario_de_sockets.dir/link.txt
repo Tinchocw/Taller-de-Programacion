@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Cuestionario_de_sockets.dir/main.cpp.o -o Cuestionario_de_sockets

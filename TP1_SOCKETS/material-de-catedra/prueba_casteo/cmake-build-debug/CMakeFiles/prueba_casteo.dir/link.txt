@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/prueba_casteo.dir/main.cpp.o -o prueba_casteo 

@@ -1,0 +1,3 @@
+/mnt/c/Users/stell/TallerDeProgramación/TP1_SOCKETS/prueba_casteo/cmake-build-debug/CMakeFiles/prueba_casteo.dir
+/mnt/c/Users/stell/TallerDeProgramación/TP1_SOCKETS/prueba_casteo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/stell/TallerDeProgramación/TP1_SOCKETS/prueba_casteo/cmake-build-debug/CMakeFiles/rebuild_cache.dir

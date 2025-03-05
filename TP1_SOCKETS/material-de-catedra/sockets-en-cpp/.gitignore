@@ -1,0 +1,4 @@
+*.o
+resolve_name
+client_http
+echo_server

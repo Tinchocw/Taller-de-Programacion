@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/prueba_mov_semantics.dir/main.cpp.o -o prueba_mov_semantics 

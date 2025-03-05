@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "prueba_mov_semantics",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "prueba_mov_semantics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prueba_mov_semantics-Debug-caa211267be645fa8bd1.json",
+					"name" : "prueba_mov_semantics",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/c/Users/stell/TallerDeProgramaci\u00f3n/TP1_SOCKETS/prueba_mov_semantics/cmake-build-debug",
+		"source" : "/mnt/c/Users/stell/TallerDeProgramaci\u00f3n/TP1_SOCKETS/prueba_mov_semantics"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

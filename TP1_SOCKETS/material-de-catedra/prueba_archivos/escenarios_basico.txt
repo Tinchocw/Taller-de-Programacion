@@ -1,0 +1,6 @@
+9 5 basic
+XXXXXXXXX
+X       X
+X       X
+X G X   X
+XXXXXXXXX

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/stdin_prueba.dir/main.cpp.o -o stdin_prueba 

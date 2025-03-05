@@ -1,0 +1,1 @@
+CMakeLists.txt not found in C:\Users\stell\TallerDeProgramación\contador_de_palabras Select CMakeLists.txt

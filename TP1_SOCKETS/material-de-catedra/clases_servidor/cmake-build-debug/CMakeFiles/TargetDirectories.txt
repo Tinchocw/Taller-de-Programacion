@@ -1,0 +1,3 @@
+/mnt/c/Users/stell/Facultad/Taller-de-Programacion/TP1_SOCKETS/clases_servidor/cmake-build-debug/CMakeFiles/untitled.dir
+/mnt/c/Users/stell/Facultad/Taller-de-Programacion/TP1_SOCKETS/clases_servidor/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/stell/Facultad/Taller-de-Programacion/TP1_SOCKETS/clases_servidor/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+/mnt/c/Users/stell/TallerDeProgramación/TP2_THREADS/stdin_prueba/cmake-build-debug/CMakeFiles/stdin_prueba.dir
+/mnt/c/Users/stell/TallerDeProgramación/TP2_THREADS/stdin_prueba/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/stell/TallerDeProgramación/TP2_THREADS/stdin_prueba/cmake-build-debug/CMakeFiles/rebuild_cache.dir
