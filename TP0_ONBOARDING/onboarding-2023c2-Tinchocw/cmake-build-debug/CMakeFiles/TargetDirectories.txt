@@ -1,0 +1,3 @@
+/mnt/c/Users/stell/TallerDeProgramación/TP0_ONBOARDING/onboarding-2023c2-Tinchocw/cmake-build-debug/CMakeFiles/onboarding_2023c2_Tinchocw.dir
+/mnt/c/Users/stell/TallerDeProgramación/TP0_ONBOARDING/onboarding-2023c2-Tinchocw/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/stell/TallerDeProgramación/TP0_ONBOARDING/onboarding-2023c2-Tinchocw/cmake-build-debug/CMakeFiles/rebuild_cache.dir

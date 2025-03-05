@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/onboarding_2023c2_Tinchocw.dir/main.cpp.o CMakeFiles/onboarding_2023c2_Tinchocw.dir/wordscounter.cpp.o -o onboarding_2023c2_Tinchocw 
